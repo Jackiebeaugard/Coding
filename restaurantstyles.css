@@ -1,0 +1,32 @@
+h1 {
+	text-align: center;
+	font-family: Comic Sans MS, Arial;
+	margin-top: 15px;
+}
+body {
+	background-color: #E0A858;
+}
+footer {
+	text-align: center;
+	margin: 5px 0;
+}
+nav .btn:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+nav .btn {
+	background-color: #F5DEB3;
+	color: black;
+	text-decoration: underline;
+}
+nav .btn:active {
+	text-decoration: none;
+}
+nav .btn:visited {
+	color: brown;
+}
+.jumbotron {
+	background-color: #F5DEB3;	
+	height: 150px;
+	padding-top: 10px;
+}

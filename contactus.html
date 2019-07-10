@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,	shrink-to-fit=no">
+	
+		<title>Contact Us</title>
+		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="restaurantstyles.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<style>
+			label { 
+				display: table-cell;
+				text-align: right;
+				}
+			input { 
+				  margin: 5px 5px;
+			}
+			select {
+				margin: 5px 5px;
+			}
+			textarea {
+				vertical-align: top;
+				margin: 5px 5px;
+			}
+			.form-check {
+				margin: 5px 5px;
+				padding: 5px 20px;
+			}
+			.btn-primary {
+				background-color: firebrick;
+				border-color: white;
+				margin-bottom: 20px;
+			}
+			.btn-primary:hover {
+				background-color: firebrick;
+				border-color: black;
+			}
+			
+				</style>
+	</head>
+	<body>
+	<header class="jumbotron">
+    <h2>Opening New Location!!</h2>
+    <h4 class="font-italic">Expanding our business to another city...</h4>
+    <h4 class="text-right">4738 Saucy St, Houston TX, 77001</h4>
+</header>
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-12 col-md">
+		<h1>Jackie's Juicy Crab Shack</h1>
+			<hr />
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 col-md">
+		<nav>
+			<a class="btn badge-pill" href="home.html"><i class="fa fa-home"></i></a>
+			<a class="btn badge-pill" href="menu.html">Menu</a>
+			<a class="btn badge-pill" href="contactus.html" style="text-decoration: none">Contact Us</a>
+		</nav>
+		<hr />
+		</div>
+	</div>
+	
+		<form name="restaurantform" class="was-validated" >
+			<div class="form-group row">
+			<label for="NameInput" class="col-md-4 col-form-label font-weight-bold">Name:</label>
+			<div class="col-md-4">
+				<input type="text" class="form-control" id="NameInput" placeholder="John Doe" required>
+			</div>
+			</div>
+			
+			<div class="form-group row">
+			<label for="EmailInput" class="col-md-4 col-form-label font-weight-bold">Email:</label>
+			<div class="col-md-4">
+				<input type="email" class="form-control" id="EmailInput" placeholder="Johndoe@yahoo.com" required>
+			</div>
+			</div>
+			
+			<div class="form-group row">
+			<label for="PhoneInput" class="col-md-4 col-form-label">Phone:</label>
+			<div class="col-md-4">
+				<input type="number" class="form-control" id="PhoneInput" placeholder="0005551234" min="1000000000" max="9999999999">
+			</div>
+			</div>
+			
+			<div class="form-group row">
+			<label class="col-md-4 col-form-label font-weight-bold">Reason for Inquiry:</label>
+			<div class="col-md-4">
+				<select id="inquiry" class="form-control">
+				<option value="catering" selected>Catering</option>
+				<option value="party">Private Party</option>
+				<option value="feedback">Feedback</option>
+				<option value="other">Other</option>
+				</select>
+			</div>
+			</div>
+			
+			<div class="form-group row">
+			<label class="col-md-4 col-form-label">Have you been to the restaurant?</label>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" id="inlineRadioNo" value="NO" checked>No
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" id="inlineRadioYes" value="YES">Yes	
+			</div>
+			</div>
+			
+			<div class="form-group row">
+			<label class="col-md-4 col-form-label">Additional Information:</label>
+			<div class="col-md-4">
+				<textarea class="form-control" id="additionalInfoInput" rows="4"></textarea>
+			</div>
+			</div>
+		
+			<div class="form-group row">
+			<label class="col-md-4 col-form-label">Best days to contact you:</label>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" id="inlineCheckboxM" value="Monday">M
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" id="inlineCheckboxT" value="Tuesday">T	
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" id="inlineCheckboxW" value="Wednesday">W
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" id="inlineCheckboxTh" value="Thursday">Th
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" id="inlineCheckboxF" value="Friday">F
+			</div>
+			</div>
+			
+			<div class="form-group row">
+			<label class="col-md-4 control-label"></label>
+			<div class="col-md-4 text-center">
+			<button id="submit" class="btn btn-primary">Send Request</button>
+			</div>
+			</div>
+			
+		</form>
+			<div class="row">
+			<div class="col-lg-12 col-md">
+		For full functionality of this site it is necessary to enable JavaScript.
+		Here are the <a href="https://www.enable-javascript.com/">
+		instructions how to enable JavaScript in your web browser</a>.
+			</div>
+			</div>
+
+			<div class="row">
+			<div class="col-lg-12 col-md">
+		<hr />
+		<footer>
+		10293 Spicy St, Dallas, TX 75202<br />
+		<br />
+		(469) 555-3585
+		</footer>
+			</div>
+			</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+	
+	
+	
+</html>
